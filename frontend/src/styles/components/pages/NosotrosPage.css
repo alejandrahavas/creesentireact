@@ -1,0 +1,31 @@
+.historia p{font-size: 0.8em;}
+.personas{overflow: hidden;}
+.persona{width: 38%;
+border: 1px solid gray;
+border-radius: 0.25em;
+float: left;
+margin-left: 2.25%;
+box-sizing: border-box;
+padding: 2%;}
+.persona:first-child{width: 58%}
+
+.persona{text-align: center;}
+.persona img{border-radius: 50%;
+box-shadow: 0 0 5px rgba (0,0,0,0.5);
+max-width: 30%;
+border: #524c55 solid thin;
+padding: 10px;}
+.persona h5, .persona h6{text-align: center;
+font-weight: normal;
+color: #4c2c69;
+margin: 0;}
+.persona h5{font-size: 1em;}
+.persona h6{font-size: 0.9em;
+font-style: normal;}
+.persona p{font-size: 0.8em;
+color: #444;
+margin: 0 1em 1em;}
+.persona ul{font-size: 0.7em ; text-align: justify; padding: 0.5em;}
+.persona ul li{ margin-bottom: 0.5em; list-style-type: square; padding: 0.5em;}
+.persona:first-child{margin-left: 0; font-size: 1em;}
+.personas{overflow: hidden;}
