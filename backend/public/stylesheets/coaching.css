@@ -1,0 +1,194 @@
+/* font-family: 'Open Sans', sans-serif; */
+
+/* index */
+body{
+    font-family:'Open Sans', sans-serif; 
+    font-size: 16px;
+    line-height: 20px;
+background-color: rgb(245, 244, 233);}
+    
+    header{background-color:rgb(235, 207, 83) ;
+    padding:1em 0;
+}
+header h1{
+    color: rgb(91, 20, 100);
+    font-size: 2,5em;
+    font-style: normal;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+
+}
+
+
+nav{background-color: #864c88;
+margin-bottom: 2em;}
+nav ul{list-style: none;
+margin: 0;
+padding: 0;}
+nav ul li{display: inline-block;
+width: 20%;}
+nav ul li a{color: white;
+text-decoration: none;
+text-align: center;
+display: block;
+padding: 0.2em 0.4em;
+font-size: 14px;}
+nav ul li a:hover{background-color: rgba (0,0,0,0,3);}
+
+footer{background-color:rgb(235, 207, 83);
+clear: both;
+color: #333;
+padding: 5em 0;
+margin-top: 2em;
+text-align: center;
+font-size: 0.8em;}
+
+nav ul li a.activo{background-color: #e6e945;}
+
+.holder{max-width: 960px ;
+margin: 0 auto;}
+h2{color: #110411 ;
+font-weight:400 ;
+margin:2em 0 1em ;}
+.left{
+    float: left;
+}
+.right{float: right;}
+.floral{float: left;}
+.homeimg{margin-bottom: 1.5em;
+}
+.columnas{overflow: hidden;
+;}
+.bienvenidos, .testimonios, .floral{box-sizing: border-box; display: inline-block; padding: 0.5em;}
+.testimonios{ margin-left: 0.7em;}
+.floral{width: 30%;margin-top: 4em;
+    }
+.bienvenidos{width: 28%;
+padding: 0.5em; margin-left: 50px; color: #762179; font-size: 14px;}
+.testimonios{width: 32%; color: #762179;}
+.testimonio{background-color: rgb(223, 216, 160);
+padding: 1em;}
+.testimonio .cita{font-weight: normal;
+font-style: italic;
+font-size: 0.7em;
+display: block;}
+.testimonio .autor{font-size: 0.7em; text-align: center;
+    margin: 2em 0;
+    display: block;
+}
+.testimonios .right{ margin-top: 1.5em;}
+
+/* fin de index */
+
+/* nosotros */
+
+.historia p{font-size: 0.8em;}
+.personas{overflow: hidden;}
+.persona{width: 38%;
+border: 1px solid gray;
+border-radius: 0.25em;
+float: left;
+margin-left: 2.25%;
+box-sizing: border-box;
+padding: 2%;}
+.persona:first-child{width: 58%}
+
+.persona{text-align: center;}
+.persona img{border-radius: 50%;
+box-shadow: 0 0 5px rgba (0,0,0,0.5);
+max-width: 30%;
+border: #524c55 solid thin;
+padding: 10px;}
+.persona h5, .persona h6{text-align: center;
+font-weight: normal;
+color: #4c2c69;
+margin: 0;}
+.persona h5{font-size: 1em;}
+.persona h6{font-size: 0.9em;
+font-style: normal;}
+.persona p{font-size: 0.8em;
+color: #444;
+margin: 0 1em 1em;}
+.persona ul{font-size: 0.7em ; text-align: justify; padding: 0.5em;}
+.persona ul li{ margin-bottom: 0.5em; list-style-type: square; padding: 0.5em;}
+.persona:first-child{margin-left: 0; font-size: 1em;}
+.personas{overflow: hidden;}
+/* fin nosotros */
+
+
+
+.servicio{border: 1px solid gray;
+border-radius: 0.7em;
+margin: 1em 0;
+padding: 1em;
+overflow: hidden;}
+.servicio .info{width: 70%; font-size: 1em;}
+.servicio .info h4{color: #392047;
+font-size: 1.2em;
+font-style: normal;
+font-weight: 500;
+margin: 0 0 1em;
+border-bottom: 1px solid #a88a28;
+padding-bottom: 0.5em;}
+.servicio .info p{font-size: 0.8em;
+line-height: 1.2em;}
+.servicio img{border-radius: 0.8em; width: 28%;}
+.servicio:nth-child( even) img{/*par*/ float: right; margin: 0 0 0 1em;}
+.servicio:nth-child( even) .info{ float: left;}
+.servicio:nth-child( odd) img{/*impar*/ float: left; margin: 0 1em 0 0;}
+.servicio:nth-child( odd) .info{ float: right;}
+
+
+/* Galeria */
+.galeria .foto{float:left;
+
+width: 40%;
+margin: 1em 0 1em 2.5%;
+border: 1px solid #ddd;
+padding: 0.3em;
+box-sizing: border-box;}
+.galeria .foto img{width: 100%;
+display:inline-block;}
+.galeria .foto:nth-child(5n+1){margin-left: 0;}
+.galeria .foto:nth-child(1){background-color:rgb(56, 88, 60); width: 35%;}
+.galeria .foto:nth-child(2){background-color:rgb(221, 101, 21); margin-bottom: 120px;width: 50%;}
+/* Fin de Galeria */
+
+/* novedades*/
+.holder .novedades{ margin-top: 20px; color: rgb(43, 17, 61); font-size: 14px;}
+
+/* Contacto */
+.columna{
+    width: 48%;
+    box-sizing: border-box;
+    padding: 0.6em;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+    background-color: rgb(233, 227, 240);
+
+}
+.columna.left{border-right: 1px solid gray;}
+.columna.right p{font-size: 0.9em;}
+.columna.right ul li{font-size: 0.8em; padding-bottom: 15px;}
+.formulario label{vertical-align: top;
+width: 20%;
+display: inline-block;}
+.formulario input, .formulario textarea{background-color:whitesmoke;
+border-radius: 5px;
+border: 1px solid #999;
+padding: 0.4em 0.6em;
+font-size: 0.8em;
+width: 70%;}
+.formulario input[type="submit"]{background-color: rgb(194, 178, 40);
+box-shadow: 0 0 10px rgba (0,0,0,0.4);
+color: white;
+font-size: 1em;
+width: auto;
+cursor: pointer;}
+.formulario textarea{height: 10em;
+resize: none;}
+.formulario .acciones{text-align: center;}
+
+/* Fin de Contacto */
