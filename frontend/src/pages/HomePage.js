@@ -90,46 +90,7 @@ const HomePage =(props) =>{
     </main>
    
     </main>
-   
-    <main className="holder">
-        <div className="columna left">
-            <h2>Contacto</h2>
-            <form action="" method="" className="formulario">
-                <p><label for="">Nombre</label>
-                    <input type="text"/>
-                </p>
-                <p><label for="">Email</label>
-                    <input type="email"/>
-                </p>
-                <p><label for="">Teléfono</label>
-                    <input type="text"/>
-                </p>
-                <p><label for="comentario">Comentario</label>
-                    <textarea id="comentario" ></textarea>
-                </p>
-                <p className="acciones">
-                    <input type="submit" value="Enviar"/>
-                </p>
-
-            </form>
-        </div>
-        <div className="columna right">
-            <h2>Otras vías de Contacto</h2>
-            <p>También te puedes comunicar por estos medios:</p>
-            <ul>
-                <li>Teléfono: +54 9 351 386 7260</li>
-                <li > <img src="img/logos/whatsapp-logo-11-1019x1024.png" width="15" alt=""/>+5493513867260</li>
-                <li>Email: alejandra91821@gmail.com</li>
-            <li> Facebook: Creesenti Life Coaching</li>
-            <li><img src="img/logos/instagram-logo1-1024x1024.png" width="15" alt=""/>@coach_creesenti</li>
-            
-            </ul>
-        </div>
-
-
-
-    </main>
-    </div>
+</div>
     );
 }
 export default HomePage;

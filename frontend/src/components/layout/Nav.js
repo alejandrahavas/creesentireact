@@ -9,7 +9,10 @@ const Nav =(props) =>{
         <li><NavLink activeClassName="activo" exact to= "/nosotros"  >Quién soy</NavLink></li>
         <li><NavLink activeClassName="activo" exact to= "/servicios"  >Servicios que brindo
         </NavLink></li>
-    
+        <li><NavLink activeClassName="activo" exact to= "/novedades"  >Novedades
+        </NavLink></li>
+        <li><NavLink activeClassName="activo" exact to= "/contacto"  >Contacto
+        </NavLink></li>
     </ul></div>
 </nav>
     );

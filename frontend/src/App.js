@@ -7,7 +7,8 @@ import Footer from './components/layout/Footer';
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPage from './pages/ServiciosPage';
-
+import NovedadesPage from './pages/NovedadesPage';
+import ContactoPage from './pages/ContactoPage';
 
 function App() {
   return ( <div className="App">
@@ -18,6 +19,8 @@ function App() {
         <Route path="/" exact element={<HomePage/>}/>
         <Route path="/nosotros" exact element={<NosotrosPage/>}/>
         <Route path="/servicios" exact element={<ServiciosPage/>}/>
+        <Route path="/novedades" exact element={<NovedadesPage/>}/>
+        <Route path="/contacto" exact element={<ContactoPage/>}/>
       </Routes>
   
     <Footer/>
